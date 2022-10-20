@@ -7,4 +7,4 @@ import { DiscordOauthService } from './discord.service';
   providers: [DiscordOauthService],
   exports: [DiscordOauthService],
 })
-export class DiscordOauth2Module extends ConfigurableModuleClass {}
+export class DiscordOauthModule extends ConfigurableModuleClass {}
