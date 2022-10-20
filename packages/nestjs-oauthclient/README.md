@@ -32,7 +32,7 @@ npm i nestjs-oauthclient
 - Register `OauthModule` for your provider, e.g. `DiscordOauthModule`
 
 ```ts
-import { DiscordOauthModule } from 'nestjs-oauthclient/discord';
+import { DiscordOauthModule } from 'nestjs-oauthclient';
 
 @Module({
   imports: [
@@ -53,7 +53,7 @@ export class AppModule {}
 - Use `OauthService` from your OAuth provider, e.g. `DiscordOauthService`
 
 ```ts
-import { DiscordOauthService } from 'nestjs-oauthclient/discord';
+import { DiscordOauthService } from 'nestjs-oauthclient';
 
 @Controller('/oauth/discord')
 export class AppController {
