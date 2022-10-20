@@ -1,4 +1,4 @@
-# NestJS OAuth
+# NestJS OAuthClient
 
 ## About
 
