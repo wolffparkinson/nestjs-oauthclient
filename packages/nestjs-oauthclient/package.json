@@ -1,7 +1,7 @@
 {
   "name": "nestjs-oauthclient",
   "description": "Collection of OAuth2 client modules for NestJS",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "commonjs",
   "license": "MIT",
   "homepage": "https://wolffparkinson.github.io/nestjs-oauthclient",
