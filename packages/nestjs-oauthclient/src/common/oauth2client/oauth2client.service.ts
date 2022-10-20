@@ -24,7 +24,12 @@ export abstract class Oauth2ClientService {
    * @return the absolute authorization url
    */
   public authorizeURL(options: AuthorizationUrlOptions): string {
-    return this.client.authorizeURL(options);
+    const { redirectUri, scope, state } = options;
+    return this.client.authorizeURL({
+      redirect_uri: redirectUri,
+      scope,
+      state,
+    });
   }
 
   /**
