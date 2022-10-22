@@ -12,7 +12,8 @@
         "tsConfig": "packages/nestjs-oauthclient/tsconfig.lib.json",
         "packageJson": "packages/nestjs-oauthclient/package.json",
         "main": "packages/nestjs-oauthclient/src/index.ts",
-        "assets": ["packages/nestjs-oauthclient/*.md"]
+        "assets": ["packages/nestjs-oauthclient/*.md"],
+        "generatePackageJson": true
       }
     },
     "publish": {
